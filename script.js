@@ -1,7 +1,6 @@
 //your JS code here. If required.
-    const input = document.getElementById("fname");
+   const input = document.getElementById("fname");
 
-      input.addEventListener("input", function () {
-        // Change actual value to uppercase
-        this.value = this.value.toUpperCase();
+      input.addEventListener("blur", function () {
+        input.value = input.value.toUpperCase();
       });
